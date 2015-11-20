@@ -85,7 +85,7 @@
     "url": "git://github.com/gotwarlost/istanbul.git"
   },
   "dependencies": {
-    "esprima": "2.4.x",
+    "esprima": "2.5.x",
     "escodegen": "1.6.x",
     "handlebars": "3.0.0",
     "mkdirp": "0.5.x",
@@ -98,7 +98,10 @@
     "wordwrap": "0.0.x",
     "resolve": "1.1.x",
     "js-yaml": "3.x",
-    "once": "1.x"
+    "once": "1.x",
+    "convert-source-map": "^1.1.1",
+    "source-map": "^0.4.4",
+    "source-map-support": "^0.3.2"
   },
   "devDependencies": {
     "rimraf": "2.2.x",
